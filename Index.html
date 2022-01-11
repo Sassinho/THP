@@ -18,31 +18,33 @@
         <![endif]-->
 
         <header>
+        <nav class="nav-container">
             <a href="#" id="barre vide"></a>
             <a href="https://accounts.google.com/ServiceLogin/signinchooser?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%26ogbl%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin" id="gmail">Gmail</a>
             <a href="https://www.google.fr/imghp?hl=fr&ogbl" id="images">Images</a>
             <a href="#" id="Menu"><img src="Logo menu.png" height="30px" width="28px"></a>
             <a href="https://accounts.google.com/ServiceLogin/signinchooser?hl=fr&passive=true&continue=https%3A%2F%2Fwww.google.fr%2F&ec=GAZAmgQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin" id="connexion">Connexion</a>
-             
+        </nav>
 
 
         </header>
 
-        <section>
-            <div>
-                 <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"/>
+        <section class="main">
+            <div class="container">
+                 <img src="https://www.google.fr/images/branding/googlelogo/2x/googlelogo_light_color_272x92dp.png" height="92" width="272"/>
+                 <div>
+                    <form>
+                        <div class="input-container">
+                            <input class="main-input" type="text" placeholder="Search" id="rechercher">
+                        </div>
+                        <div class="button-section">
+                            <input type="text" id="recherche" value="Recherche google">
+                            <input  type="text" id="chance" value="j'ai de la chance">
+                        </div>
+                    </form>
+                </div>
             </div>
-            <div>
-                <form>
-                    <div>
-                        <input type="text" id="rechercher">
-                    </div>
-                    <div>
-                        <input type="submit" id="recherche" value="Recherche google">
-                        <input  type="submit" id="chance" value="j'ai de la chance">
-                    </div>
-                </form>
-            </div>
+
         </section>
 
         <footer>
@@ -53,7 +55,7 @@
             <div>
                 <a href="#" id="Neutreencarbone"><img src="carbone.png"/>Neutre en carbone depuis 2007</a>   
             </div>
-            <div>
+            <div class="link-container">
                 <a href="#" id="propos">A propos</a>
                 <a href="#" id="Publicité">Publicité</a>
                 <a href="#" id="Entreprise"></a>
